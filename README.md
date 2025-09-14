@@ -1,4 +1,4 @@
-# Blender AI MCP Integration 🚀
+# 光塑 Blender AI MCP Integration 🚀
 
 本项目实现了一个 **Blender 扩展 + Python 客户端 + MCP 服务**，用于通过 JSON 指令或 AI 模型生成来远程控制 Blender。
 
