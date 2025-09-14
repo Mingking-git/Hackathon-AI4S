@@ -6,8 +6,8 @@
 # You will find the server controls in the 3D View sidebar (N key) > "AI MCP" tab.
 
 bl_info = {
-    "name": "AI MCP Server Interface",
-    "author": "Gemini",
+    "name": "AI4S Hackathon",
+    "author": "AI4S Hackathon",
     "version": (1, 2),
     "blender": (2, 80, 0),
     "location": "View3D > Sidebar > AI MCP Tab",
@@ -299,24 +299,3 @@ def unregister():
 if __name__ == "__main__":
     register()
 
-if __name__ == "__main__2":
-    # register()
-    ss = MCP_OT_StartServer()
-
-
-    class mcp_server_status:
-        def __init__(self):
-            super().__init__()
-
-
-    class Context:
-        def __init__(self):
-            super().__init__()
-            self.scene = mcp_server_status()
-
-
-    ss.execute(Context())
-    import time
-
-    time.sleep(10)
-    MCP_OT_StopServer()

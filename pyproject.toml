@@ -1,0 +1,9 @@
+[project]
+name = "AI4S Hackathon"
+version = "0.1.0"
+description = "Turn natural language into Blender model"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastmcp>=2.12.3",
+]

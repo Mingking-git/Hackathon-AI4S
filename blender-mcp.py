@@ -87,17 +87,6 @@ def simulation_in_blender_by_python(python_script: str):
     return f"Shapes created in Blender."
 
 
-#
-# @mcp.tool()
-# def import_obj_to_blender(obj_content: str):
-#     """Import OBJ files into Blender.
-#     example cmd to import obj = {"command": "import_obj", "params": {"file_path": "/path/to/file.obj", "location": [1, 2, 3]}}
-#     """
-#     blender_client.send_command_to_blender(
-#         {"command": "import_model", "params": {"type": "obj", "content": obj_content}})
-#     return f"Shapes created in Blender."
-#
-
 # This is the main entry point for your server
 def main():
     logger.info('Starting your-new-server')
