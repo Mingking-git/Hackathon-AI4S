@@ -77,11 +77,6 @@ MCP 会暴露工具给 AI，允许 AI 通过 MCP 协议调用 Blender 指令。
 {"command": "create_cube", "params": {"size": 2, "location": [0, 0, 1]}}
 ```
 
-- **导入模型**
-```json
-{"command": "import_model", "params": {"type": "obj", "content": "<OBJ file text>"}}
-```
-
 - **运行物理仿真**
 ```json
 {"command": "run_physics_simulation", "params": {"script": "bpy.ops.mesh.primitive_cube_add(size=2, location=[0,0,1])"}}
